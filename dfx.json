@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "seventh_backend": {
+      "candid": "src/seventh_backend/seventh_backend.did",
+      "package": "seventh_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
