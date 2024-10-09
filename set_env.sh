@@ -18,6 +18,7 @@ export FEATURE_FLAGS=false
 dfx identity use Jesper
 
 # Write variables to .env file
+
 echo "PRE_MINTED_TOKENS=$PRE_MINTED_TOKENS" >> .env
 echo "DEFAULT=$DEFAULT" >> .env
 echo "TRANSFER_FEE=$TRANSFER_FEE" >> .env
