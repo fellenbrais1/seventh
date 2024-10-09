@@ -4,6 +4,11 @@
       "candid": "src/seventh_backend/seventh_backend.did",
       "package": "seventh_backend",
       "type": "rust"
+    },
+    "icrc1_ledger": {
+      "type": "custom",
+      "candid": "src/seventh_backend/lift/icrc1_ledger.did",
+      "wasm": "src/seventh_backend/lift/icrc1_ledger.wasm.gz"
     }
   },
   "defaults": {
