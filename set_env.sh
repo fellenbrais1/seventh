@@ -16,3 +16,16 @@ export TOKEN_SYMBOL="LIFT"
 export MINTER=bkyz2-fmaaa-aaaaa-qaaaq-cai
 export FEATURE_FLAGS=false
 dfx identity use Jesper
+
+# Write variables to .env file
+echo "PRE_MINTED_TOKENS=$PRE_MINTED_TOKENS" >> .env
+echo "DEFAULT=$DEFAULT" >> .env
+echo "TRANSFER_FEE=$TRANSFER_FEE" >> .env
+echo "ARCHIVE_CONTROLLER=$ARCHIVE_CONTROLLER" >> .env
+echo "TRIGGER_THRESHOLD=$TRIGGER_THRESHOLD" >> .env
+echo "CYCLE_FOR_ARCHIVE_CREATION=$CYCLE_FOR_ARCHIVE_CREATION" >> .env
+echo "NUM_OF_BLOCK_TO_ARCHIVE=$NUM_OF_BLOCK_TO_ARCHIVE" >> .env
+echo "TOKEN_NAME=$TOKEN_NAME" >> .env
+echo "TOKEN_SYMBOL=$TOKEN_SYMBOL" >> .env
+echo "MINTER=$MINTER" >> .env
+echo "FEATURE_FLAGS=$FEATURE_FLAGS" >> .env
